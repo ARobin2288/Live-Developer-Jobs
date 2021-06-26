@@ -49,6 +49,7 @@ header {
   border: 2px solid #222328;
   background-color: #1c1c24;
   display: flex;
+  overflow: hidden;
 }
 
 .input-container {
@@ -74,4 +75,14 @@ header {
 
 .button-container {
   background-color: #3060ff;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.02s ease;
+}
+
+.button-container:hover {
+  background: #5a81f1;
 }
