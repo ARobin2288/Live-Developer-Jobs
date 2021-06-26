@@ -48,4 +48,30 @@ header {
   border-radius: 18px;
   border: 2px solid #222328;
   background-color: #1c1c24;
+  display: flex;
+}
+
+.input-container {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.input-container input {
+  flex-grow: 1;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.input-container i {
+  font-size: 20px;
+  margin-left: 25px;
+}
+
+.button-container {
+  background-color: #3060ff;
 }
