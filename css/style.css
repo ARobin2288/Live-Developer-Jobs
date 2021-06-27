@@ -1,8 +1,8 @@
 body {
-  font-family: "Merriweather Sans", sans-serif;
+  font-family: "Maven Pro", sans-serif;
   margin: 0;
   color: white;
-  background: #11121a;
+  background: #212121;
 }
 
 * {
@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  background: #1c1c24;
+  background: #737373;
   height: 70px;
   display: flex;
   justify-content: center;
@@ -28,7 +28,7 @@ header {
 }
 
 .header-container .logo {
-  height: 30px;
+  height: 70px;
   margin-right: 10px;
 }
 
@@ -46,8 +46,8 @@ header {
 .search-container {
   height: 60px;
   border-radius: 10px;
-  border: 2px solid #222328;
-  background-color: #1c1c24;
+  border: 2px solid #7ed957;
+  background-color: #eeeeee;
   display: flex;
   overflow: hidden;
 }
@@ -64,33 +64,36 @@ header {
   border: none;
   outline: none;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   margin-left: 20px;
+  font-family: "Maven Pro", sans-serif;
 }
 
 .input-container i {
   font-size: 20px;
   margin-left: 25px;
+  color: #7ed957;
 }
 
 .button-container {
-  background: #3060ff;
+  background: #7ed957;
   width: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  transition: all 0.02s ease;
+  transition: all 1s ease;
 }
 
 .button-container:hover {
-  background: #5a81f1;
+  background: #7ed95700;
+  color: #7ed957;
 }
 
 .jobs-list {
   max-width: 1250px;
   width: 100%;
-  background-color: #11121a;
+  background-color: #212121;
   height: 100vh;
   margin: 0 auto;
   display: flex;
@@ -107,17 +110,17 @@ header {
   display: grid;
   gap: 40px;
   grid-template-columns: repeat(3, 1fr);
-  background: #11121a;
+  background: #212121;
 }
 
 .job-tile {
-  background: #1c1c1c;
+  background: #737373;
   border-radius: 10px;
   cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  color: white;
+  color: #eeeeee;
   padding: 30px;
   transition: transform 0.2s;
 }
@@ -151,11 +154,11 @@ header {
   height: 105px;
   overflow: hidden;
   font-size: 18px;
-  color: #969398;
+  color: #eeeeee;
 }
 
 .buttons {
-  color: black;
+  color: #eeeeee;
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
@@ -168,14 +171,14 @@ header {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  color: #969398;
-  background-color: #2e2e39;
+  color: #eeeeee;
+  background-color: #54913a;
   font-size: 14px;
 }
 
 .apply-now {
   color: white;
-  background: #3060ff;
+  background: #7ed957;
   margin-right: 15px;
 }
 
